@@ -1,0 +1,9 @@
+<!-- <button id="red" type="button" class="btn btn-default" (click) = "clicked($event)">red</button>
+<button id="blue" type="button" class="btn btn-default" (click) = "clicked($event)">blue</button>
+<button id="green" type="button" class="btn btn-default" (click) = "clicked($event)">green</button>!-->
+<app-child (emitter)="myFun($event)"></app-child> 
+<div class="container" [style.background-color]="content">
+    {{content}}
+</div>
+<app-child1></app-child1>
+<app-child2></app-child2>
